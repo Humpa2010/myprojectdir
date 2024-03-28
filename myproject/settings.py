@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-j#bg#()vf#uj_fs1&a3f-fu+kimut&q^x0r1&gt#ieny6g(6nz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '178.208.76.97']
+ALLOWED_HOSTS = ['localhost', '']
 
 
 
@@ -75,16 +75,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'humpa_db',
-        'USER': 'humpa_sql',
-        'PASSWORD': 'Gdjk6&89',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
+
 
 
 # Password validation
